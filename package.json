@@ -1,8 +1,10 @@
 {
   "private": true,
-  "name": "qpucv2",
+  "name": "@qpuc/monorepo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:client": "fly deploy --config ./apps/client/fly.toml",
+    "deploy:server": "fly deploy --config ./apps/server/fly.toml"
   },
   "keywords": [],
   "author": "",
