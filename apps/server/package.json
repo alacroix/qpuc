@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "@qpuc/server",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node build/index.js",
+    "loadtest": "tsx loadtest/example.ts --room my_room --numClients 2",
+    "build": "pnpm run clean && tsc",
+    "clean": "rimraf build",
+    "test": "mocha -r tsx test/**_test.ts --exit --timeout 15000"
+  },
+  "dependencies": {
+    "@colyseus/core": "^0.15.38",
+    "@colyseus/monitor": "^0.15.0",
+    "@colyseus/playground": "^0.15.3",
+    "@colyseus/schema": "^2.0.32",
+    "@colyseus/tools": "^0.15.0",
+    "@colyseus/ws-transport": "^0.15.2",
+    "colyseus": "^0.15.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@colyseus/loadtest": "^0.15.0",
+    "@colyseus/testing": "^0.15.0",
+    "@types/express": "^4.17.1",
+    "@types/mocha": "^10.0.1",
+    "mocha": "^10.2.0",
+    "rimraf": "^5.0.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
