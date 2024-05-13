@@ -15,6 +15,7 @@ RUN  --mount=type=cache,id=pnpm,target=/pnpm/store pnpm deploy --filter=server -
 
 FROM base AS server
 ENV PORT 8080
+ENV NODE_ENV production
 COPY --from=build /prod/server /prod/server
 WORKDIR /prod/server
 EXPOSE 8080
