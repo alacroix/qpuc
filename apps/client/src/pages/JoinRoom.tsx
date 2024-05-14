@@ -25,7 +25,7 @@ function JoinRoom() {
   }, []);
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center">
+    <div className="qpuc-gradient flex flex-1 flex-col items-center justify-center">
       <Loader status={loadingStatus} />
     </div>
   );

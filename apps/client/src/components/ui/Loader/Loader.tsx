@@ -3,7 +3,7 @@ interface Props {
 }
 
 function Loader({ status }: Props) {
-  return <div>{status}</div>;
+  return <div className="font-kimberley text-white">{status}</div>;
 }
 
 export default Loader;

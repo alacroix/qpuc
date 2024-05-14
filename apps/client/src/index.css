@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Kimberley-Black";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+      url(/fonts/Kimberley-Black.woff2) format("woff2"),
+      url(/fonts/Kimberley-Black.woff) format("woff");
+  }
+}
+
 @layer utilities {
   .qpuc-gradient {
     background: radial-gradient(

@@ -58,14 +58,14 @@ function Play() {
   }
 
   return (
-    <div className="flex h-full flex-1 flex-col p-4">
+    <div className="qpuc-gradient flex h-full flex-1 flex-col p-4">
       <div className="flex flex-1 flex-col">
         <div className="flex justify-center">
           <img src="/logo.png" alt="logo" className="h-16" />
         </div>
         <div className="mt-8 flex-1 md:mt-32 md:flex md:justify-around">
           <div className="md:mx-auto">
-            <h2>
+            <h2 className="font-kimberley">
               Participants (
               {
                 Array.from(state.participants.values()).filter((p) => p.isReady)

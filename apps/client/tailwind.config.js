@@ -1,8 +1,14 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        kimberley: ["Kimberley-Black", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [require("@tailwindcss/forms")],
 };
