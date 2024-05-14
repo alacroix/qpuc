@@ -67,7 +67,7 @@ function Menu() {
       <div className="mt-12 md:mb-32 md:mt-24">
         <div className="text-left">
           <Input
-            className="font-kimberley"
+            className="font-kimberley text-gray-800"
             label="Votre pseudo :"
             placeholder="Samuel"
             value={nickname}

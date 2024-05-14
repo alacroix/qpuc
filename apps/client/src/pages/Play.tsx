@@ -1,8 +1,16 @@
 import { useEffect, useState } from "react";
-import { Button } from "../components/ui";
-import { useColyseus } from "../context/ColyseusContext";
+import c from "clsx";
 import { QRCodeSVG } from "qrcode.react";
 import { useNavigate } from "react-router-dom";
+import {
+  CallBell,
+  CheckFat,
+  MicrophoneStage,
+  Monitor,
+  X,
+} from "@phosphor-icons/react";
+import { Button } from "../components/ui";
+import { useColyseus } from "../context/ColyseusContext";
 
 enum ParticipantType {
   Player,
@@ -18,6 +26,17 @@ const mapParticipantTypeToString = (type: ParticipantType) => {
       return "Présentateur";
     case ParticipantType.Display:
       return "TV";
+  }
+};
+
+const mapParticipantTypeToIcon = (type: ParticipantType) => {
+  switch (type) {
+    case ParticipantType.Player:
+      return <CallBell size={24} />;
+    case ParticipantType.Host:
+      return <MicrophoneStage size={24} />;
+    case ParticipantType.Display:
+      return <Monitor size={24} />;
   }
 };
 
@@ -64,20 +83,30 @@ function Play() {
           <img src="/logo.png" alt="logo" className="h-16" />
         </div>
         <div className="mt-8 flex-1 md:mt-32 md:flex md:justify-around">
-          <div className="md:mx-auto">
-            <h2 className="font-kimberley">
-              Participants (
-              {
-                Array.from(state.participants.values()).filter((p) => p.isReady)
-                  .length
-              }{" "}
-              / {state.participants.size} prêts)
-            </h2>
-            <ul>
+          <div className="pl-8 md:mx-auto md:pl-0">
+            <h2 className="font-kimberley text-3xl">Participants</h2>
+            <ul className="mt-4">
               {Array.from(state.participants.values()).map((participant) => (
-                <li key={participant.sessionId}>
-                  {participant.isReady ? "Prêt" : "Pas prêt"}{" "}
-                  {participant.nickname} {participant.type}
+                <li
+                  key={participant.sessionId}
+                  className={c("flex items-center space-x-2", {
+                    "-ml-8": participant.type === ParticipantType.Player,
+                  })}
+                >
+                  {participant.type === ParticipantType.Player &&
+                    (participant.isReady ? (
+                      <CheckFat
+                        weight="fill"
+                        className="fill-green-400"
+                        size={24}
+                      />
+                    ) : (
+                      <X weight="fill" className="fill-red-400" size={24} />
+                    ))}
+                  <span className="font-kimberley text-xl">
+                    {participant.nickname}
+                  </span>
+                  {mapParticipantTypeToIcon(participant.type)}
                 </li>
               ))}
             </ul>
@@ -97,7 +126,7 @@ function Play() {
             )}
             {playerType === ParticipantType.Host && (
               <div className="w-64">
-                <h2>Options</h2>
+                <h2 className="font-kimberley text-3xl">Options</h2>
               </div>
             )}
           </div>
