@@ -15,7 +15,7 @@ function CreateRoom() {
       createRoom("my_room").then((room) => {
         setLoadingStatus("Joining room...");
         setTimeout(() => {
-          navigate(`/room/${room?.id}`);
+          navigate(`/room/${room?.id}`, { replace: true });
         }, 1000);
       });
     }, 500);

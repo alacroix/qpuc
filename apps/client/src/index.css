@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .qpuc-gradient {
+    background: radial-gradient(
+        farthest-corner at top right,
+        #602125,
+        transparent 70%
+      ),
+      radial-gradient(
+        circle,
+        rgba(0, 0, 150, 0.8) 0%,
+        rgba(0, 0, 30, 0.9) 80%,
+        rgba(0, 0, 30, 1) 100%
+      );
+  }
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

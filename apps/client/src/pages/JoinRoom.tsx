@@ -15,7 +15,7 @@ function JoinRoom() {
     if (roomId) {
       joinRoom(roomId, {}).then((room) => {
         setTimeout(() => {
-          navigate(`/room/${room?.id}`);
+          navigate(`/room/${room?.id}`, { replace: true });
         }, 1000);
       });
     }

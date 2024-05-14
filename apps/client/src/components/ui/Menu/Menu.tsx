@@ -1,10 +1,14 @@
-import { useEffect, useState } from "react";
-import Button from "../Button";
-import { useColyseus } from "../../../context/ColyseusContext";
+import { FormEvent, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { QrCode } from "@phosphor-icons/react";
+import { useColyseus } from "../../../context/ColyseusContext";
+import Button from "../Button";
+import Loader from "../Loader";
+import Input from "../Input";
 
 function Menu() {
   const [loading, setLoading] = useState(true);
+  const [nickname, setNickname] = useState("");
   const { connectClient } = useColyseus();
   const [error, setError] = useState();
   const navigate = useNavigate();
@@ -14,6 +18,10 @@ function Menu() {
     if (roomId) {
       navigate(`/join/${roomId}`);
     }
+  };
+
+  const handleNicknameChange = (e: FormEvent<HTMLInputElement>) => {
+    setNickname(e.currentTarget.value);
   };
 
   useEffect(() => {
@@ -40,31 +48,47 @@ function Menu() {
   }
 
   if (loading) {
-    return <div className="text-white">Loading...</div>;
+    return (
+      <div className="text-center text-white">
+        <Loader status="Connexion au serveur..." />
+      </div>
+    );
   }
 
   return (
     <div className="flex w-full flex-col p-6 text-center text-white md:p-10">
-      <div className="mx-auto h-32">
+      <div className="mx-auto h-24 md:h-32">
         <img src="/logo.png" alt="logo" className="h-full" />
       </div>
 
-      <div className="mb-32 mt-24">
-        <div>
-          <label>Votre pseudo:</label>
-          <input type="text" />
+      <div className="mt-12 md:mb-32 md:mt-24">
+        <div className="text-left">
+          <Input
+            label="Votre pseudo :"
+            placeholder="Samuel"
+            value={nickname}
+            onChange={handleNicknameChange}
+          />
         </div>
-        <div className="mt-4 flex flex-col space-y-4">
+        <div className="mt-8 flex flex-col space-y-4">
           <div>
             <Link to={"/room/create"}>
-              <Button className="w-full">Créer une partie</Button>
+              <Button className="w-full" disabled={!nickname}>
+                Créer une partie
+              </Button>
             </Link>
           </div>
           <div className="flex w-full">
-            <Button className="flex-1" onClick={handleJoinClick}>
+            <Button
+              className="flex-1"
+              onClick={handleJoinClick}
+              disabled={!nickname}
+            >
               Rejoindre une partie
             </Button>
-            <Button className="ml-4">QRCode</Button>
+            <Button className="ml-4" disabled={!nickname}>
+              <QrCode size={24} weight="bold" />
+            </Button>
           </div>
         </div>
       </div>
