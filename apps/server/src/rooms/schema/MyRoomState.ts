@@ -7,9 +7,9 @@ export enum ParticipantType {
 }
 
 export class Participant extends Schema {
-  @type("string") sessionId: string = "";
+  @type("string") sessionId: string;
   @type("uint8") type: ParticipantType = ParticipantType.Player;
-  @type("string") nickname: string = "";
+  @type("string") nickname: string;
   @type("boolean") isReady: boolean = false;
 }
 

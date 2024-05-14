@@ -9,6 +9,9 @@ primary_region = 'cdg'
 [build] 
   build-target = 'client'
 
+  [build.args]
+    QPUC_SERVER_URL="qpuc-server.fly.dev"
+
 [http_service]
   internal_port = 80
   force_https = true

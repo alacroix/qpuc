@@ -9,7 +9,11 @@ COPY pnpm-lock.yaml ./
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm fetch
 COPY . /usr/src/app
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install -r --frozen-lockfile --offline
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
+
+ARG QPUC_SERVER_URL
+ENV QPUC_SERVER_URL=$QPUC_SERVER_URL
+ENV NODE_ENV production
+
 RUN pnpm run -r build
 RUN  --mount=type=cache,id=pnpm,target=/pnpm/store pnpm deploy --filter=server --prod /prod/server
 

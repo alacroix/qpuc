@@ -17,7 +17,9 @@ function Menu() {
   };
 
   useEffect(() => {
-    fetch(`http://${import.meta.env.QPUC_SERVER_URL}/status`)
+    fetch(
+      `${import.meta.env.PROD ? "https" : "http"}://${import.meta.env.QPUC_SERVER_URL}/status`,
+    )
       .then((res) => {
         if (!res.ok) {
           throw new Error("Server is not reachable");

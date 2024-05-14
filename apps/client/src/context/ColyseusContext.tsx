@@ -61,7 +61,7 @@ export const ColyseusProvider = ({ children }: Props) => {
 
   const connectClient = () => {
     const colyseusClient = new Client(
-      `ws://${import.meta.env.QPUC_SERVER_URL}`,
+      `${import.meta.env.PROD ? "wss" : "ws"}://${import.meta.env.QPUC_SERVER_URL}`,
     );
     setClient(colyseusClient);
   };
