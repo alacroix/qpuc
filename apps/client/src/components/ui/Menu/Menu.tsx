@@ -16,7 +16,10 @@ function Menu() {
   const handleJoinClick = () => {
     const roomId = prompt("Saisir l'ID de la partie");
     if (roomId) {
-      navigate(`/join/${roomId}`);
+      navigate({
+        pathname: `/join/${roomId}`,
+        search: `?nickname=${nickname}`,
+      });
     }
   };
 
@@ -72,7 +75,9 @@ function Menu() {
         </div>
         <div className="mt-8 flex flex-col space-y-4">
           <div>
-            <Link to={"/room/create"}>
+            <Link
+              to={{ pathname: "/room/create", search: `?nickname=${nickname}` }}
+            >
               <Button className="w-full" disabled={!nickname}>
                 Créer une partie
               </Button>

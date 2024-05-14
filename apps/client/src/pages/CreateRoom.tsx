@@ -1,18 +1,21 @@
 import { useEffect, useState } from "react";
 import { Loader } from "../components/ui";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { useColyseus } from "../context/ColyseusContext";
 
 function CreateRoom() {
   const [loadingStatus, setLoadingStatus] = useState("Creating new game...");
 
   const navigate = useNavigate();
+  const [params, _] = useSearchParams();
 
   const { createRoom } = useColyseus();
 
   useEffect(() => {
     setTimeout(() => {
-      createRoom("my_room").then((room) => {
+      createRoom("my_room", {
+        nickname: params.get("nickname") || "Anonymous",
+      }).then((room) => {
         setLoadingStatus("Joining room...");
         setTimeout(() => {
           navigate(`/room/${room?.id}`, { replace: true });

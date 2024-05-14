@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Loader } from "../components/ui";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useColyseus } from "../context/ColyseusContext";
 
 function JoinRoom() {
@@ -8,12 +8,15 @@ function JoinRoom() {
 
   const navigate = useNavigate();
   const { roomId } = useParams();
+  const [params, __] = useSearchParams();
 
   const { joinRoom } = useColyseus();
 
   useEffect(() => {
     if (roomId) {
-      joinRoom(roomId, {}).then((room) => {
+      joinRoom(roomId, {
+        nickname: params.get("nickname") || "Anonymous",
+      }).then((room) => {
         setTimeout(() => {
           navigate(`/room/${room?.id}`, { replace: true });
         }, 1000);

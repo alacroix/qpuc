@@ -5,6 +5,10 @@ import {
   ParticipantType,
 } from "./schema/MyRoomState";
 
+type onJoinOptions = {
+  nickname: string;
+};
+
 export class MyRoom extends Room<MyRoomState> {
   maxClients = 4;
 
@@ -40,19 +44,21 @@ export class MyRoom extends Room<MyRoomState> {
     }
   }
 
-  onJoin(client: Client, options: any) {
-    console.log(client.sessionId, "joined!");
+  onJoin(client: Client, options: onJoinOptions) {
+    console.log(`${options.nickname} (${client.sessionId}) joined!`);
 
     const participant: Participant = new Participant({
       sessionId: client.sessionId,
-      nickname: "Samuel",
+      nickname: options.nickname,
     });
 
     this.state.participants.set(client.sessionId, participant);
   }
 
   async onLeave(client: Client, consented: boolean) {
-    console.log(client.sessionId, "left!");
+    console.log(
+      `${this.state.participants.get(client.sessionId).nickname} (${client.sessionId}) joined!`,
+    );
 
     this.state.participants.delete(client.sessionId);
     // TODO: implement reconnection
