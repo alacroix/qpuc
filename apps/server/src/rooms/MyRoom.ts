@@ -1,5 +1,6 @@
 import { Room, Client } from "@colyseus/core";
 import {
+  GameState,
   MyRoomState,
   Participant,
   ParticipantType,
@@ -26,6 +27,7 @@ export class MyRoom extends Room<MyRoomState> {
       "Lobby:UpdatePlayerType",
       this.onPlayerTypeChanged.bind(this),
     );
+    this.onMessage("Lobby:StartGame", this.onStartGame.bind(this));
   }
 
   onReadyToggle(client: Client, message: any) {
@@ -41,6 +43,13 @@ export class MyRoom extends Room<MyRoomState> {
     if (participant) {
       participant.type = newType;
       this.state.participants.set(client.sessionId, participant);
+    }
+  }
+
+  onStartGame(client: Client) {
+    const participant = this.state.participants.get(client.sessionId);
+    if (participant.type === ParticipantType.Host) {
+      this.state.gameState = GameState.NINE_TO_WIN;
     }
   }
 

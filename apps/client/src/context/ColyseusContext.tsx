@@ -9,6 +9,18 @@ import {
 import { Client, Room } from "colyseus.js";
 import type { MyRoomState } from "../../../server/src/rooms/schema/MyRoomState";
 
+export enum ParticipantType {
+  Player,
+  Host,
+  Display,
+}
+
+export enum GameState {
+  WAITING,
+  // VIDEO,
+  NINE_TO_WIN,
+}
+
 interface IColyseusContext {
   client: Client | null;
   room: Room<MyRoomState> | null;
