@@ -4,13 +4,23 @@
 
 @layer base {
   @font-face {
-    font-family: "Kimberley-Black";
+    font-family: "Kimberley";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     font-display: swap;
     src:
       url(/fonts/Kimberley-Black.woff2) format("woff2"),
       url(/fonts/Kimberley-Black.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: "Kimberley";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+      url(/fonts/Kimberley-Regular.woff2) format("woff2"),
+      url(/fonts/Kimberley-Regular.woff) format("woff");
   }
 }
 

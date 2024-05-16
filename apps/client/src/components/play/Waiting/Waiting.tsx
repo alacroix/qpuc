@@ -84,7 +84,7 @@ function Waiting() {
         </div>
         <div className="mt-8 flex-1 md:mt-32 md:flex md:justify-around">
           <div className="pl-8 md:mx-auto md:pl-0">
-            <h2 className="font-kimberley text-3xl">Participants</h2>
+            <h2 className="font-kimberley text-3xl font-black">Participants</h2>
             <ul className="mt-4 space-y-3">
               {Array.from(state.participants.values()).map((participant) => (
                 <li
@@ -132,7 +132,7 @@ function Waiting() {
             )}
             {playerType === ParticipantType.Host && (
               <div className="w-64">
-                <h2 className="font-kimberley text-3xl">Options</h2>
+                <h2 className="font-kimberley text-3xl font-black">Options</h2>
               </div>
             )}
           </div>

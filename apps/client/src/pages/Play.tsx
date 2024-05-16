@@ -4,7 +4,8 @@ import {
   GameState,
   ParticipantType,
 } from "../context/ColyseusContext";
-import { Waiting } from "../components/play";
+import { Buzzer, Dashboard, Display, Waiting } from "../components/play";
+import { BuzzerState } from "../components/play/Buzzer/Buzzer";
 
 function Play() {
   const { room, state } = useColyseus();
@@ -17,19 +18,20 @@ function Play() {
     return <div>you're not supposed to be here yet</div>;
   }
 
+  // Everything has the same screen in the lobby
   if (state.gameState === GameState.WAITING) {
     return <Waiting />;
   }
 
   const playerType = state.participants.get(room.sessionId)?.type;
 
-  if (playerType === ParticipantType.Player) {
-    return <div>buzzer</div>;
-  }
-
-  switch (state.gameState) {
-    case GameState.NINE_TO_WIN:
-      return <div>nine to win</div>;
+  switch (playerType) {
+    case ParticipantType.Player:
+      return <Buzzer buzzerState={BuzzerState.Idle} />;
+    case ParticipantType.Host:
+      return <Dashboard gameState={state.gameState} />;
+    case ParticipantType.Display:
+      return <Display gameState={state.gameState} />;
   }
 }
 

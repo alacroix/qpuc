@@ -1,0 +1,884 @@
+{
+  "data": [
+    {
+      "question": "Quel nom désignant familièrement un individu qui se fait remarquer par son extravagance et ses excentricités est tiré de celui d'un empereur romain du Ve siècle ?",
+      "answer": "olibrius (un)",
+      "points": 3
+    },
+    {
+      "question": "De quelle série étrangère le lancement de la 8e saison en 2019, a-t-il été marqué par l'organisation d'une « chasse au trésor » mondiale, visant à trouver six trônes de fer ?",
+      "answer": "*Game of Thrones*",
+      "points": 1
+    },
+    {
+      "question": "En 1891, quel peintre français, ayant vécu plusieurs années en Polynésie, réalise la toile *Femmes de Tahiti* ?",
+      "answer": "Gauguin (Paul)",
+      "points": 2
+    },
+    {
+      "question": "Quel synonyme de plante grasse qualifie une plante charnue, gorgée de suc ?",
+      "answer": "succulente",
+      "points": 2
+    },
+    {
+      "question": "Selon la propagande de l'époque, quel mineur soviétique aurait, dans la nuit du 30 au 31 août 1935, extrait en six heures 102 tonnes de charbon?",
+      "answer": "Stakhanov (Alekseï Grigorievitch)",
+      "points": 2
+    },
+    {
+      "question": "En français, à quelle fleur du genre Paeonia, compare-t-on une personne qui rougit facilement ?",
+      "answer": "pivoine (la)",
+      "points": 1
+    },
+    {
+      "question": "Chez l'homme, comment appelle-t-on le mouvement involontaire d'une partie du corps, déclenché par le système nerveux en réponse à une stimulation?",
+      "answer": "réflexe (un)",
+      "points": 1
+    },
+    {
+      "question": "Quel présentateur de la météo, disparu en 1999, terminait ses bulletins en souhaitant « bon vent » aux téléspectateurs ?",
+      "answer": "Gillot-Pétré (Alain)",
+      "points": 3
+    },
+    {
+      "question": "Quel mot espagnol désigne la vaste région de plaines de l'Argentine, dans laquelle domine l'élevage extensif bovin et ovin ?",
+      "answer": "pampa (la)",
+      "points": 2
+    },
+    {
+      "question": "Quel dieu hindou, monté sur un rat, est représenté avec un corps d'homme ventru, une tête d'éléphant et quatre bras ?",
+      "answer": "Ganesh",
+      "points": 2
+    },
+    {
+      "question": "A Londres, quelle place est ornée d'une colonne de 44 mètres de haut, au sommet de laquelle trône une statue de l'amiral Nelson ?",
+      "answer": "Trafalgar Square",
+      "points": 1
+    },
+    {
+      "question": "Quelle ville, située à l'entrée sud du golfe de Finlande, est la capitale de l'Estonie?",
+      "answer": "Tallinn",
+      "points": 2
+    },
+    {
+      "question": "Quel stylo, créé dans les années 1950, est doté à son extrémité d'une petite sphère en carbure de tungstène qui libère l'encre en roulant sur le papier ?",
+      "answer": "bille (le stylo) / Bic (le)",
+      "points": 1
+    },
+    {
+      "question": "En 1985, quelle chanson de Michel Jonasz débutait par : « Un peu parti, un peu naze » ?",
+      "answer": "« La Boîte de jazz »",
+      "points": 2
+    },
+    {
+      "question": "A Alger, quel nom arabe signifiant « citadelle » donne-t-on à l'ensemble du quartier historique ?",
+      "answer": "Casbah (la)",
+      "points": 1
+    },
+    {
+      "question": "Quel reptile crocodilien d'Amérique du Nord ou de Chine, à la tête large et aplatie, peut atteindre jusqu'à 5 mètres de long ?",
+      "answer": "alligator (l')",
+      "points": 1
+    },
+    {
+      "question": "Quel serpent très venimeux d'Amérique présente une queue formée d'écailles creuses, qu'il fait vibrer avec un bruit de crécelle ?",
+      "answer": "crotale (le) / serpent à sonnette (le)",
+      "points": 1
+    },
+    {
+      "question": "Lors des jeux Olympiques de 1936 organisés à Berlin, quel athlète noir américain remporte quatre médailles d'or ?",
+      "answer": "Owens (Jesse)",
+      "points": 2
+    },
+    {
+      "question": "Quelle déesse grecque, fille de Zeus et de Métis, sort du cerveau de son père toute armée en poussant un cri de guerre ?",
+      "answer": "Athéna",
+      "points": 2
+    },
+    {
+      "question": "A quel jeune humoriste postant des vidéos sur Internet doit-on celles intitulées *Les Geeks*, *C'était mieux avant* et *Les Boss* ?",
+      "answer": "Cyprien",
+      "points": 1
+    },
+    {
+      "question": "Quel grand chef, disparu en 2018 et reconnu comme le « pape de la gastronomie française », était célèbre pour sa poularde demi-deuil ?",
+      "answer": "Bocuse (Paul)",
+      "points": 1
+    },
+    {
+      "question": "Quel petit arbre aux baies rouges et aux feuilles piquantes, d'un vert brillant, utilise-t-on pour les décorations de Noël?",
+      "answer": "houx (le)",
+      "points": 1
+    },
+    {
+      "question": "En 1811, quel chimiste et physicien italien laisse son nom à une loi permettant d'élucider la composition d'un gaz ?",
+      "answer": "Avogadro (Amédéo di Quarégna e Céretto, comte)",
+      "points": 2
+    },
+    {
+      "question": "En 2020, quelle chanteuse, interprète du tube « La Grenade », a reçu la Victoire de la musique de l'artiste féminine de l'année ?",
+      "answer": "Luciani (Clara)",
+      "points": 1
+    },
+    {
+      "question": "A quel poète dramatique anglais doit-on les pièces *Richard III* et *Songe d'une nuit d'été* ?",
+      "answer": "Shakespeare (William)",
+      "points": 1
+    },
+    {
+      "question": "A quel gastronome doit-on la citation :\n« Dis-moi ce que tu manges, je te dirai ce que tu es » ?",
+      "answer": "Brillat-Savarin (Anthelme)",
+      "points": 2
+    },
+    {
+      "question": "Quelle activité sportive consiste à pédaler sur une bicyclette immergée dans une piscine?",
+      "answer": "aquabike (l')",
+      "points": 1
+    },
+    {
+      "question": "En 2011, quel acteur français incarne un cardinal qui devient pape, dans le film *Habemus Papam* de Nanni Moretti ?",
+      "answer": "Piccoli (Michel)",
+      "points": 2
+    },
+    {
+      "question": "En 2018, quelle romancière italienne a fait paraître le quatrième et dernier volume du best-seller *L'Amie prodigieuse* ?",
+      "answer": "Ferrante (Elena)",
+      "points": 2
+    },
+    {
+      "question": "Quelle déesse grecque de l'Amour et de la Fécondité est née de l'écume de la mer ?",
+      "answer": "Aphrodite",
+      "points": 1
+    },
+    {
+      "question": "Sur quel billet en euros, le 4e par ordre croissant de valeur, figure, au recto, une arche de style Renaissance, et au verso, un pont de même style?",
+      "answer": "50 euros (le billet de)",
+      "points": 1
+    },
+    {
+      "question": "Quel établissement français, créé en 1946, se classe au deuxième rang mondial en termes de recherche dans les sciences agricoles ?",
+      "answer": "INRA (I') / Institut national de la recherche agronomique (l')",
+      "points": 1
+    },
+    {
+      "question": "Dans la mythologie celtique, quelle fée, dernière fille de la duchesse Ygerne, était la demi-sœur d'Arthur ?",
+      "answer": "fée Morgane (la)",
+      "points": 3
+    },
+    {
+      "question": "En 1815, quel maréchal de France, surnommé « le Brave des braves », dit au peloton d'exécution :\n« Soldats ! Droit au cœur! » ?",
+      "answer": "Ney (Michel)",
+      "points": 2
+    },
+    {
+      "question": "Quelle préparation culinaire, pouvant être « auvergnate » ou « arlésienne », est à base de porc et de légumes, dont le chou ?",
+      "answer": "potée (la)",
+      "points": 1
+    },
+    {
+      "question": "Quelle statuette en bronze, emblématique de la ville de Bruxelles et ornant une célèbre fontaine, représente un petit garcon ?",
+      "answer": "Manneken-Pis (le) / Petit Julien (le)",
+      "points": 1
+    },
+    {
+      "question": "Dès 1957, dans *Le Palais du désir*, quel romancier égyptien, prix Nobel de littérature en 1988, évoque sa ville natale du Caire ?",
+      "answer": "Mahfouz (Naguib)",
+      "points": 3
+    },
+    {
+      "question": "A quel auteur et compositeur français, disparu en 1992, doit-on les chansons\n« Seras-tu là ?», « La Groupie du pianiste » et « Le Paradis blanc » ?",
+      "answer": "Berger (Michel)",
+      "points": 2
+    },
+    {
+      "question": "Quelle institution spécialisée de l'ONU organise chaque année, le 7 avril, une « journée mondiale de la santé » ?",
+      "answer": "O.M.S (l') / Organisation mondiale de la santé (l')",
+      "points": 1
+    },
+    {
+      "question": "Quel feuilleton télévisé, diffusé sur France 2 à partir de 2018, met en scène Mélanie Maudran dans le rôle de Claire Estrela ?",
+      "answer": "*Un si grand soleil*",
+      "points": 1
+    },
+    {
+      "question": "Quel style musical, né des folklores andalou et gitan, associe la guitare au chant et aux battements de main ?",
+      "answer": "flamenco (le)",
+      "points": 1
+    },
+    {
+      "question": "Dans quel désert du Chili trouve-t-on un lac salé situé à plus de 2000 mètres d'altitude, constituant le plus grand dépôt de sel du pays ?",
+      "answer": "Alacama (le désert d')",
+      "points": 2
+    },
+    {
+      "question": "Quel mode de vie en expansion, également appelé « végétalisme intégral », consiste à refuser de consommer tout produit d'origine animale ?",
+      "answer": "véganisme (le) / végan (le mode de vie)",
+      "points": 1
+    },
+    {
+      "question": "Quel nom a-t-on donné aux mutilés de guerre, blessés au visage lors de la Première Guerre mondiale ?",
+      "answer": "gueules cassées (les)",
+      "points": 1
+    },
+    {
+      "question": "Dans la mythologie grecque, quel objet en laine d'or Aiétès suspendit-il à un chêne sacré, dans le bois d'Arès, avant que Jason ne le dérobe ?",
+      "answer": "Toison d'or (la)",
+      "points": 2
+    },
+    {
+      "question": "Quel instrument de musique indien à cordes pincées a été popularisé en Occident par Ravi Shankar ?",
+      "answer": "sitar (le)",
+      "points": 2
+    },
+    {
+      "question": "Quel top-modèle britannique, née en 1974 et surnommée « la Brindille », est découverte à l'âge de 14 ans dans un aéroport de New York ?",
+      "answer": "Moss (Kate)",
+      "points": 1
+    },
+    {
+      "question": "Quel écrivain autrichien est l'auteur des livres *La Confusion des sentiments* et *Le Joueur d'échecs* ?",
+      "answer": "Zweig (Stefan)",
+      "points": 2
+    },
+    {
+      "question": "Quel physicien, ayant donné son nom à une unité de mesure de résistance électrique, a énoncé les lois fondamentales des courants électriques ?",
+      "answer": "Ohm (Georg Simon)",
+      "points": 1
+    },
+    {
+      "question": "Quel sport de glisse consiste à surfer sur une planche tractée par une sorte de cerf-volant ?",
+      "answer": "kitesurf (le) / flysurf (le) / kite (le)",
+      "points": 1
+    },
+    {
+      "question": "Quel type de jupe, devenu un classique de la mode féminine dans les années 1940, porte un nom évoquant un instrument de dessin et d'écriture ?",
+      "answer": "jupe crayon (la)",
+      "points": 2
+    },
+    {
+      "question": "Quelle planète du Système solaire tourne sur elle-même en une période de rotation qualifiée de sidérale, qui dure 23 h 56 min et 4 s ?",
+      "answer": "Terre (la)",
+      "points": 1
+    },
+    {
+      "question": "Dans un célèbre cliché pris en 1951 par le photographe Arthur Sasse, quel physicien d'origine allemande est immortalisé en train de tirer la langue ?",
+      "answer": "Einstein (Albert)",
+      "points": 1
+    },
+    {
+      "question": "Quel cheval de trait français, puissant et élégant, doit son nom à une région de l'ouest du Bassin parisien ?",
+      "answer": "percheron (le)",
+      "points": 2
+    },
+    {
+      "question": "En 2020, quel comédien interprète le rôle-titre du film *De Gaulle* ?",
+      "answer": "Wilson (Lambert)",
+      "points": 2
+    },
+    {
+      "question": "En agriculture, quel mot désigne la fosse pratiquée dans la terre pour y conserver les récoltes ?",
+      "answer": "silo (le)",
+      "points": 1
+    },
+    {
+      "question": "De quelle caryophyllacée, voisine de l'œillet, les fleuristes utilisent-ils les minuscules fleurs blanches pour garnir leurs bouquets ?",
+      "answer": "gypsophile (la)",
+      "points": 3
+    },
+    {
+      "question": "Quel poisson carnassier de la famille des sphyrénidés, également appelé « brochet de mer », trouve-t-on généralement près des récifs coralliens ?",
+      "answer": "barracuda (le)",
+      "points": 2
+    },
+    {
+      "question": "En 1840, quelle terre Dumont d'Urville, parti à la recherche du pôle Sud magnétique, a-t-il découverte et nommée du prénom de sa femme ?",
+      "answer": "Adélie (la terre)",
+      "points": 2
+    },
+    {
+      "question": "Lors d'une course, à quelle place vous retrouverez-vous si vous dépassez, en même temps, les concurrents classés 3e et 2e ?",
+      "answer": "2e place (à la)",
+      "points": 1
+    },
+    {
+      "question": "A partir de 1965, quel nom a-t-on donné aux sculptures de femmes exubérantes, peintes de couleurs vives, réalisées par Niki de Saint Phalle ?",
+      "answer": "*nanas (les)*",
+      "points": 2
+    },
+    {
+      "question": "Quel anglicisme, constituant l'abréviation des mots *picture* et *element*, a-t-on employé dès 1980, en France, pour désigner un élément d'une image?",
+      "answer": "pixel (le)",
+      "points": 1
+    },
+    {
+      "question": "Comment appelle-t-on le déplacement estival des troupeaux qui se rendent dans les pâturages de haute montagne ?",
+      "answer": "transhumance (la) / estivage (l')",
+      "points": 1
+    },
+    {
+      "question": "En patinage artistique, quel saut, créé en 1882, doit son nom au prénom de son inventeur, le Norvégien Paulsen ?",
+      "answer": "axel (l')",
+      "points": 1
+    },
+    {
+      "question": "Quelle série télévisée avec Virginie Lemoine, diffusée dès 2001 sur France 3, évoque le quotidien des Ferrière, qui recueillent des enfants en difficulté ?",
+      "answer": "Famille d'accueil",
+      "points": 2
+    },
+    {
+      "question": "En 2012, quelle chanteuse britannique a interprété « Skyfall », la chanson du générique du James Bond du même nom ?",
+      "answer": "Adele",
+      "points": 1
+    },
+    {
+      "question": "Par opposition aux plantes annuelles, quel adjectif qualifie celles qui fleurissent plusieurs années consécutives ?",
+      "answer": "vivaces",
+      "points": 2
+    },
+    {
+      "question": "Quel scientifique russe, prix Nobel en 1904, reste associé à une expérience de réflexe conditionné menée avec un chien ?",
+      "answer": "Pavlov (Ivan Petrovitch)",
+      "points": 1
+    },
+    {
+      "question": "En cuisine, dans quelle préparation, désignée par un mot turc, le riz est-il doré à l'huile avec de l'oignon, puis mouillé de bouillon et additionné de viande ?",
+      "answer": "pilaf (le riz)",
+      "points": 1
+    },
+    {
+      "question": "Quel terme, emprunté au latin signifiant « être au milieu », désigne la personne qui sert d'intermédiaire ou de conciliateur lors d'un conflit ?",
+      "answer": "médiateur (le)",
+      "points": 1
+    },
+    {
+      "question": "Quelle série télévisée francaise met en scène les couples formés par Raymond et Huguette, Fabien et Emma, José et Liliane ainsi que Léo et Leslie?",
+      "answer": "*Scènes de ménages*",
+      "points": 1
+    },
+    {
+      "question": "Quel dinosaurien herbivore du crétacé, à l'allure d'un rhinocéros, doit son nom aux trois cornes qui armaient sa tête ?",
+      "answer": "tricératops (le)",
+      "points": 1
+    },
+    {
+      "question": "Quel groupe féminin espagnol, interprète en 2002 du tube « Asereje », était composé de trois sœurs prénommées Pilar, Lola et Lucia ?",
+      "answer": "Las Ketchup",
+      "points": 1
+    },
+    {
+      "question": "A New York, quel morceau de poitrine de bœuf saumurée et fumée, originaire d'Europe de l'Est, sert-on en fines tranches, comme garniture de sandwichs ?",
+      "answer": "pastrami (le)",
+      "points": 1
+    },
+    {
+      "question": "Dans le langage populaire, quelle partie du corps humain désigne-t-on par le mot « guibolle » ?",
+      "answer": "jambe (une)",
+      "points": 1
+    },
+    {
+      "question": "Quel mot tiré du grec désigne l'antilope d'Arabie et d'Afrique aux cornes longues et effilées, annelées et légèrement incurvées, dont une espèce est l'algazelle ?",
+      "answer": "oryx (l')",
+      "points": 2
+    },
+    {
+      "question": "En jazz, quelle locution, signifiant en anglais « grand orchestre », désigne une formation d'au moins neuf musiciens ?",
+      "answer": "big band (un)",
+      "points": 1
+    },
+    {
+      "question": "Dans la mythologie grecque, à quelle tribu guerrière, exclusivement composée de femmes, associe-t-on la reine Hippolyte ?",
+      "answer": "Amazones (les)",
+      "points": 1
+    },
+    {
+      "question": "Dans *Les Voyages de Gulliver* de Jonathan Swift, quel peuple rencontré par le héros ne mesure pas plus de treize centimètres de haut ?",
+      "answer": "Lilliputiens (les)",
+      "points": 1
+    },
+    {
+      "question": "A quel cavalier français, fondateur du Théâtre équestre Zingaro, doit-on l'ouvrage *D'un cheval l'autre*, sorti en 2020 ?",
+      "answer": "Bartabas",
+      "points": 3
+    },
+    {
+      "question": "En France, quelle plante cultive-t-on pour que ses petites fleurs blanches, en forme de clochettes, fleurissent au moment du 1er mai ?",
+      "answer": "muguet (le)",
+      "points": 1
+    },
+    {
+      "question": "Quel traité signé en 1992, instituant l'Union européenne, a fait l'objet d'un référendum cette année-là en France, en vue de sa ratification ?",
+      "answer": "traité de Maastricht (le)",
+      "points": 1
+    },
+    {
+      "question": "Dans la mythologie égyptienne, quelle déesse est la femme d'Osiris et la mère d'Horus ?",
+      "answer": "Isis",
+      "points": 2
+    },
+    {
+      "question": "Quel Etat insulaire d'Asie méridionale, dont la capitale commerciale est Colombo, était autrefois appelé Ceylan ?",
+      "answer": "Sri Lanka (le)",
+      "points": 2
+    },
+    {
+      "question": "Dans les clips des chansons « Sing » en 2014 et « Happier » en 2017, quel jeune artiste britannique d'origine irlandaise est représenté par une marionnette rousse à son effigie ?",
+      "answer": "Sheeran (Ed)",
+      "points": 1
+    },
+    {
+      "question": "Quel invertébré marin, consommé en sauce, en soupe ou cru juste après la pêche, est aussi appelé « châtaigne de mer » ?",
+      "answer": "oursin (l')",
+      "points": 1
+    },
+    {
+      "question": "En 1967, quel écrivain français situe l'action de son roman *Les Cavaliers* en Afghanistan ?",
+      "answer": "Kessel (Joseph)",
+      "points": 3
+    },
+    {
+      "question": "Quel singe arboricole d'Amérique tropicale, également appelé « marmouset », comprend des individus dont le corps fait 15 centimètres de long, sans la queue ?",
+      "answer": "ouistiti (le)",
+      "points": 2
+    },
+    {
+      "question": "En quelle année la flotte américaine du Pacifique a-t-elle été en partie détruite par les Japonais, à Pearl Harbor, un 7 décembre ?",
+      "answer": "1941 (en)",
+      "points": 1
+    },
+    {
+      "question": "En 1918, quel scientifique allemand, dont les travaux ont jeté les bases de la théorie quantique, est récompensé par le Nobel de physique ?",
+      "answer": "Planck (Max)",
+      "points": 1
+    },
+    {
+      "question": "Quelle jeune paysanne française, dont les visions sont à l'origine du pèlerinage de Lourdes, entra au couvent en 1866 ?",
+      "answer": "Bernadette Soubirous (sainte)",
+      "points": 2
+    },
+    {
+      "question": "Depuis 2012, sur France 2, quel ex-mannequin slovaque co-anime le magazine *Les Pouvoirs extraordinaires du corps humain*, aux côtés de Michel Cymès ?",
+      "answer": "Karembeu (Adriana)",
+      "points": 2
+    },
+    {
+      "question": "En 2018, quel rappeur a interprété son tube « Ramenez la coupe à la maison » devant plus de 80 000 personnes au stade de France?",
+      "answer": "Vegedream",
+      "points": 1
+    },
+    {
+      "question": "Quel peintre né en 1879 près de Berne, a créé une œuvre reconnaissable à ses formes géométriques ou schématiques, comme dans la série « Carrés magiques »?",
+      "answer": "Klee (Paul)",
+      "points": 3
+    },
+    {
+      "question": "Quelle déesse redoutable du panthéon hindou porte un nom signifiant « la Noire » en sanskrit?",
+      "answer": "Kali",
+      "points": 2
+    },
+    {
+      "question": "Quelle région de Californie, associée à la haute technologie, prit son essor dans les années 1920 grâce aux étudiants venus y fonder leur entreprise ?",
+      "answer": "Silicon Valley (la)",
+      "points": 1
+    },
+    {
+      "question": "A quel duo de rappeurs toulousains doit-on les tubes « Demain » et « Papa » ?",
+      "answer": "Bigflo et Oli",
+      "points": 1
+    },
+    {
+      "question": "Quel administrateur et statisticien français, né en 1764, a donné son nom par extension à l'annuaire téléphonique?",
+      "answer": "Bottin (Sébastien)",
+      "points": 2
+    },
+    {
+      "question": "En 1951, quelle montagne du département du Vaucluse, appelée le « Géant de Provence », les coureurs du Tour de France ont-ils gravie pour la première fois ?",
+      "answer": "Ventoux (le mont)",
+      "points": 1
+    },
+    {
+      "question": "Lors d'une grossesse, quel examen, utilisant la réflexion des ultrasons par les organes, pratique-t-on pour surveiller la croissance du fœtus ?",
+      "answer": "échographie obstétricale (l')",
+      "points": 2
+    },
+    {
+      "question": "Quel château du XVIe siècle est édifié sur un ilot de l'archipel du Frioul, au centre de la rade de Marseille ?",
+      "answer": "If (le château d')",
+      "points": 2
+    },
+    {
+      "question": "En 2018, quel film mettant en scène T'Challa, le premier super-héros noir, a atteint la première place du box-office américain dès sa sortie ?",
+      "answer": "*Black Panther*",
+      "points": 1
+    },
+    {
+      "question": "En Europe, quelle expression a-t-on utilisé pour qualifier les années de libération des mœurs, comprises entre 1920 et 1930?",
+      "answer": "Années folles (les)",
+      "points": 2
+    },
+    {
+      "question": "Quel bonbon à la menthe est une spécialité de la ville de Cambrai?",
+      "answer": "bêtise (la)",
+      "points": 2
+    },
+    {
+      "question": "A la différence du terme « imberbe » qui s'applique uniquement à une personne qui n'a pas de barbe, quel adjectif qualifie un individu dépourvu de poils ?",
+      "answer": "glabre",
+      "points": 3
+    },
+    {
+      "question": "Lors des JO de 1960, quel athlète éthiopien entre dans la légende du sport en remportant le marathon, après avoir effectué l'ensemble du parcours les pieds nus ?",
+      "answer": "Bikila (Abebe)",
+      "points": 3
+    },
+    {
+      "question": "Quel philosophe grec du IVe siècle avant notre ère, fondateur de l'école dite du Lycée, possédait un savoir encyclopédique ?",
+      "answer": "Aristote",
+      "points": 2
+    },
+    {
+      "question": "Dans une série diffusée sur France 3, quel bonnet de fourrure à rabats, désigné par un mot russe, est indissociable du personnage du capitaine Marleau?",
+      "answer": "chapka (une)",
+      "points": 1
+    },
+    {
+      "question": "En 1964, quelle chanteuse et actrice, disparue en 2019, interprète le titre\n« Viens sur la montagne » ?",
+      "answer": "Laforêt (Marie)",
+      "points": 2
+    },
+    {
+      "question": "Sur quel haut plateau du Limousin la Vienne, la Creuse, la Corrèze et la Vézère prennent-elles leur source ?",
+      "answer": "Millevaches (le plateau de)",
+      "points": 2
+    },
+    {
+      "question": "Quel arbre comporte une espèce dite « d'Inde » dont les spécimens sont souvent plantés sur les voies publiques et peuvent atteindre 30 mètres de haut ?",
+      "answer": "marronnier (le)",
+      "points": 2
+    },
+    {
+      "question": "Selon la classification géologique en périodes depuis la création de la Terre, dans quelle ère vivons-nous actuellement ?",
+      "answer": "quaternaire (l'ère)",
+      "points": 2
+    },
+    {
+      "question": "Quel nom porte la petite pâtisserie faite de blancs d'œufs battus en neige puis sucrés, que l'on fait cuire au four à feu doux ?",
+      "answer": "meringue (une)",
+      "points": 1
+    },
+    {
+      "question": "Quel animal marin, devant son nom à un monstre de la mythologie grecque, a un corps gélatineux composé de 98 % d'eau et de 2 % de protéines ?",
+      "answer": "méduse (la)",
+      "points": 1
+    },
+    {
+      "question": "Quelle saga historique de Robert Merle, comprenant 13 volumes, débute à l'époque de Francois 1er ?",
+      "answer": "Fortune de France",
+      "points": 2
+    },
+    {
+      "question": "Quel adjectif qualifie un signe graphique, comme un accent grave ou une cédille, qui, adjoint à une lettre, en modifie la valeur ?",
+      "answer": "diacritique",
+      "points": 2
+    },
+    {
+      "question": "Durant quel conflit se déroulent les jeux vidéo *Call of Duty*, *Medal of Honor* et *Company of Heroes* ?",
+      "answer": "Seconde Guerre mondiale (la)",
+      "points": 1
+    },
+    {
+      "question": "En 2020, quelle comédienne américaine a été récompensée par l'Oscar de la meilleure actrice pour le film *Judy*, dans lequel elle incarne Judy Garland ?",
+      "answer": "Zellweger (Renée)",
+      "points": 2
+    },
+    {
+      "question": "En 1820, dans quelle ile de la mer Egée a-t-on découvert la célèbre statue sans bras surnommée *Vénus* et exposée au Louvre ?",
+      "answer": "Milo",
+      "points": 1
+    },
+    {
+      "question": "Quelle plante herbacée est considérée comme un porte-bonheur, lorsque ses feuilles sont composées de quatre folioles ?",
+      "answer": "trèfle (le)",
+      "points": 1
+    },
+    {
+      "question": "Quel groupe marseillais formé en 1989 autour d'Akhenaton a signé en 2019 un dixième album intitulé *Yasuke* ?",
+      "answer": "IAM",
+      "points": 1
+    },
+    {
+      "question": "Quel écrivain du XVIe siècle affirmait, dans ses célèbres *Essais*, qu'il valait mieux une tête bien faite qu'une tête bien pleine ?",
+      "answer": "Montaigne (Michel Eyquem de)",
+      "points": 2
+    },
+    {
+      "question": "Sous l'Ancien Régime, avec le clergé et la noblesse, quel était le troisième ordre qui formait la société française?",
+      "answer": "tiers état (le)",
+      "points": 1
+    },
+    {
+      "question": "En 1999, quel brevet de pilotage militaire Caroline Aigle a-t-elle été la première femme française à décrocher ?",
+      "answer": "pilote de chasse (le brevet de)",
+      "points": 1
+    },
+    {
+      "question": "Depuis 1971 en France, quel panneau du code de la route, signalant un arrêt obligatoire, est de forme octogonale ?",
+      "answer": "stop (le panneau)",
+      "points": 1
+    },
+    {
+      "question": "Quel reptile était Harriet, animal décédé en 2006 à plus de 170 ans, qui aurait eu le privilège de croiser Charles Darwin ?",
+      "answer": "tortue (une)",
+      "points": 1
+    },
+    {
+      "question": "En 2002, avec quelle chanson, dont le titre évoque un astre, le groupe Indochine renoue-t-il avec le succès ?",
+      "answer": "« J'ai demandé à la lune »",
+      "points": 1
+    },
+    {
+      "question": "Quel lac, bordé par la ville de Chicago, est le seul des cinq Grands Lacs nord-américains à être entièrement situé sur le territoire des Etats-Unis ?",
+      "answer": "Michigan (le lac)",
+      "points": 2
+    },
+    {
+      "question": "Quel petit chien de compagnie, devant son nom à une capitale d'Asie, a été durant des siècles la propriété exclusive de la cour impériale chinoise ?",
+      "answer": "pékinois (le)",
+      "points": 1
+    },
+    {
+      "question": "A quel groupe de rock originaire de Las Vegas, emmené par Dan Reynolds, doit-on les tubes « Believer », « Thunder » et « Radioactive » ?",
+      "answer": "Imagine Dragons",
+      "points": 1
+    },
+    {
+      "question": "Quel fleuve de 4 200 km de long, né au Tibet et se jetant dans la mer de Chine méridionale, traverse les villes de Phnom Penh et de Vientiane ?",
+      "answer": "Mékong (le)",
+      "points": 2
+    },
+    {
+      "question": "Au Japon, sous quels arbres du genre prunus se rend-on, au mois d'avril, pour célébrer l'arrivée du printemps?",
+      "answer": "cerisier du Japon (le)",
+      "points": 1
+    },
+    {
+      "question": "Sous le règne de Charlemagne, quelle expression latine, signifiant « envoyés du maître », désignait les agents qui étaient chargés de surveiller les autorités locales ?",
+      "answer": "*missi dominici* (les)",
+      "points": 2
+    },
+    {
+      "question": "Quel cinéaste espagnol a réalisé les films *Talons aiguilles*, *Tout sur ma mère* et *Etreintes brisées*?",
+      "answer": "Almodóvar (Pedro)",
+      "points": 1
+    },
+    {
+      "question": "En 1952, à quel peintre d'origine russe, coloriste raffiné, doit-on la série des *Footballeurs* ?",
+      "answer": "Staël (Nicolas de)",
+      "points": 2
+    },
+    {
+      "question": "Quelle épée légendaire, extraite par le roi Arthur d'un rocher dans lequel elle était plantée, permit à ce dernier de voler de victoire en victoire?",
+      "answer": "Excalibur",
+      "points": 1
+    },
+    {
+      "question": "Dans les forêts tropicales, quel type de plante grimpante permet à de nombreux animaux de parcourir les arbres sans descendre au sol ?",
+      "answer": "liane (la)",
+      "points": 1
+    },
+    {
+      "question": "A quelle personne du singulier les verbes défectifs « pleuvoir » et « neiger » se conjuguent-ils exclusivement ?",
+      "answer": "3e personne (à la)",
+      "points": 1
+    },
+    {
+      "question": "Quel nom sanskrit signifiant « connaissance de la vie » désigne la médecine indienne très ancienne basée sur les plantes, les massages et le yoga?",
+      "answer": "ayurveda (l')",
+      "points": 3
+    },
+    {
+      "question": "En 2019, quelle jeune militante écologiste suédoise critique l'inaction politique lors du sommet sur le climat de l'ONU?",
+      "answer": "Thunberg (Greta)",
+      "points": 1
+    },
+    {
+      "question": "Quelle épouse de Néron, réputée pour sa coquetterie, prenait des bains de lait d'ânesse ?",
+      "answer": "Poppée",
+      "points": 2
+    },
+    {
+      "question": "Quel film sorti en 1969, se déroulant dans l'univers de la mafia, est le seul dans lequel sont réunis Jean Gabin, Alain Delon et Lino Ventura ?",
+      "answer": "*Le Clan des Siciliens*",
+      "points": 1
+    },
+    {
+      "question": "Quel art martial brésilien, aux racines africaines, est un mélange de combat, de danse et de jeu ?",
+      "answer": "capoeira (la)",
+      "points": 1
+    },
+    {
+      "question": "Dans *Belle du seigneur* d'Albert Cohen, comment se prénomme le héros qui, au début du roman, est sous-secrétaire général de la Société des Nations ?",
+      "answer": "Solal",
+      "points": 3
+    },
+    {
+      "question": "Dans le textile, quel mot latin, signifiant « moyen », désigne une taille de tee-shirt?",
+      "answer": "medium",
+      "points": 1
+    },
+    {
+      "question": "Quel français, vice-champion du monde de patinage artistique en 1994, a incarné D'Artagnan ou Napoléon 1er sur la glace?",
+      "answer": "Candeloro (Philippe)",
+      "points": 1
+    },
+    {
+      "question": "Chez l'homme, quelle partie du membre supérieur est située à la jonction du bras et de l'avant-bras ?",
+      "answer": "coude (le)",
+      "points": 1
+    },
+    {
+      "question": "Quel tube du chanteur Christophe, sorti en 1965, débute par : « J'avais dessiné sur le sable, son doux visage qui me souriait » ?",
+      "answer": "« Aline »",
+      "points": 1
+    },
+    {
+      "question": "Quel pays situé entre la Chine et l'Inde, dont la capitale est Katmandou, s'étend le long de la chaîne de l'Himalaya ?",
+      "answer": "Népal (le)",
+      "points": 1
+    },
+    {
+      "question": "En 1966, dans quelle chanson Nino Ferrer énumère-t-il tout ce qu'il a emporté pour pique-niquer dans la nature ?",
+      "answer": "« Les Cornichons »",
+      "points": 2
+    },
+    {
+      "question": "En sciences, comment appelle-t-on la décomposition chimique de certaines substances sous l'effet d'un courant électrique?",
+      "answer": "électrolyse (l')",
+      "points": 1
+    },
+    {
+      "question": "Dans *Les Misérables* de Victor Hugo, quel est le véritable nom de l'ancien bagnard, également connu sous l'identité de Monsieur Madeleine ?",
+      "answer": "Valjean (Jean)",
+      "points": 1
+    },
+    {
+      "question": "Dans le tableau périodique des éléments quel élément chimique est symbolisé par la lettre « i » ?",
+      "answer": "iode (l')",
+      "points": 1
+    },
+    {
+      "question": "Dans le film *La Grande Vadrouille* quand le personnage d'Augustin Bouvet lance « Y'a pas d'hélice, hélas! », que lui répond Stanislas Lefort?",
+      "answer": "«C'est là qu'est l'os!»",
+      "points": 2
+    },
+    {
+      "question": "Dans le commerce, quelle mention figure sur des œufs pondus au plus tard 9 jours avant la mise en rayon ?",
+      "answer": "extra-frais",
+      "points": 1
+    },
+    {
+      "question": "Quelle marquise, ayant été la maitresse déclarée du roi Louis XV de 1745 à 1750, joua un rôle politique important auprès du monarque ?",
+      "answer": "marquise de Pompadour (la)",
+      "points": 2
+    },
+    {
+      "question": "A quel peintre norvégien doit-on le tableau intitulé *Le Cri*, dont l'une des versions a été vendue près de 120 millions de dollars aux enchères à New York, en mai 2012 ?",
+      "answer": "Munch (Edvard)",
+      "points": 2
+    },
+    {
+      "question": "Dans la mythologie romaine, quel nom portait la déesse des fleurs, des jardins et du printemps ?",
+      "answer": "Flore",
+      "points": 2
+    },
+    {
+      "question": "En 1939, quel écrivain américain situe l'action des *Raisins de la colère* pendant la dépression économique des années 1930?",
+      "answer": "Steinbeck (John)",
+      "points": 2
+    },
+    {
+      "question": "Quelle sorte de sandwich, constitué d'un petit pain rond garni notamment de tomates et de thon, est une spécialité niçoise ?",
+      "answer": "pan-bagnat (le)",
+      "points": 1
+    },
+    {
+      "question": "En gastronomie, quelle spécialité de la ville française de Montélimar est une confiserie faite d'un mélange de sucre et de miel, additionné d'amandes grillées et de pistaches ?",
+      "answer": "nougat (le)",
+      "points": 1
+    },
+    {
+      "question": "Quel journaliste américain, d'origine hongroise, a donné son nom à un prix annuel décerné en journalisme et en littérature?",
+      "answer": "Pulitzer (Joseph)",
+      "points": 1
+    },
+    {
+      "question": "A la fin du XVIIIe et au début du XIXe siècle, quel corsaire malouin mena dans l'océan Indien une redoutable guerre au commerce britannique?",
+      "answer": "Surcouf (Robert)",
+      "points": 3
+    },
+    {
+      "question": "Quelle grande station balnéaire de la Loire-Atlantique, dont le nom est officiellement lié à celui d'Escoublac, est située sur la Côte d'Amour?",
+      "answer": "La Baule",
+      "points": 2
+    },
+    {
+      "question": "Dans l'une de ses célèbres définitions de mots croisés, de quelle profession Tristan Bernard donnait-il la définition suivante: intervient au dernier acte ?",
+      "answer": "notaire",
+      "points": 1
+    },
+    {
+      "question": "De quelle variante du volley-ball en salle, le premier tournoi officiel deux contre deux s'est-il déroulé en 1947 sur la plage américaine de State Beach ?",
+      "answer": "beach-volley (le)",
+      "points": 1
+    },
+    {
+      "question": "De quel gaz rare, découvert en 1898, le nom a-t-il été formé à partir d'un mot grec signifiant « nouveau »?",
+      "answer": "néon (le)",
+      "points": 1
+    },
+    {
+      "question": "Quelle douleur, due au nerf sensitif innervant la cuisse, la jambe et le pied, peut être provoquée par le pincement de deux vertèbres ?",
+      "answer": "sciatique (une)",
+      "points": 1
+    },
+    {
+      "question": "Dans la mythologie scandinave, quel génie symbolisait les forces de la nature?",
+      "answer": "elfe (un)",
+      "points": 2
+    },
+    {
+      "question": "Début 2020, quel couturier français a réuni notamment Boy George, Dita Von Teese et Catherine Ringer, lors de son ultime défilé haute couture, couronnant 50 ans de carrière?",
+      "answer": "Gaultier (Jean-Paul)",
+      "points": 1
+    },
+    {
+      "question": "Quel arbuste du genre Syringa embaume le jardin de ses grappes de fleurs mauves ou blanches odorantes ?",
+      "answer": "lilas (le)",
+      "points": 2
+    },
+    {
+      "question": "Comment appelle-t-on la petite boule de pâte à choux non fourrée et parsemée de grains de sucre?",
+      "answer": "chouquette (la)",
+      "points": 1
+    },
+    {
+      "question": "Quel verbe, emprunté à l'anglais, désigne le fait de révéler un élément clé de l'intrigue d'un film ou d'un livre, gâchant ainsi l'effet de surprise?",
+      "answer": "spoiler",
+      "points": 1
+    },
+    {
+      "question": "Quelle vitamine, également appelée « tocophérol » ou « vitamine de reproduction », protège les globules rouges contre les substances oxydantes ?",
+      "answer": "vitamine E (la)",
+      "points": 1
+    },
+    {
+      "question": "Quelle association française à but non lucratif, créée en 1945 et luttant contre la pauvreté, a pour devise : *Tout ce qui est humain est nôtre* ?",
+      "answer": "Secours populaire français (le)",
+      "points": 1
+    },
+    {
+      "question": "A quelle femme humoriste, parfois surnommée « la Dame en rouge », doit-on le spectacle *Aimons-nous les uns les autres* ?",
+      "answer": "Roumanoff (Anne)",
+      "points": 1
+    }
+  ]
+}

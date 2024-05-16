@@ -1,20 +1,32 @@
 import type { ButtonHTMLAttributes } from "react";
 import c from "clsx";
 
+type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
+  block?: boolean;
+  variant?: "primary" | "success" | "danger";
+};
+
 function Button({
+  block = false,
   children,
   className,
   disabled,
+  variant = "primary",
   ...rest
-}: ButtonHTMLAttributes<HTMLButtonElement>) {
+}: Props) {
   return (
     <button
       className={c(
-        "h-11 cursor-pointer rounded-lg border-b-[4px]  px-6 py-2 font-semibold text-white transition-all",
+        "cursor-pointer rounded-lg border-b-[4px] px-6 py-2 font-semibold text-white transition-all",
         {
-          "border-amber-600 bg-amber-500 hover:-translate-y-[1px] hover:border-b-[6px] hover:brightness-110 active:translate-y-[2px] active:border-b-[2px] active:brightness-90":
+          " hover:-translate-y-[1px] hover:border-b-[6px] hover:brightness-110 active:translate-y-[2px] active:border-b-[2px] active:brightness-90":
             !disabled,
+          "border-amber-600 bg-amber-500": variant === "primary",
+          "border-green-600 bg-green-500": variant === "success",
+          "border-red-600 bg-red-500": variant === "danger",
           "cursor-not-allowed border-gray-500 bg-gray-400": disabled,
+          "h-11": !block,
+          "h-full w-full": block,
         },
         className,
       )}

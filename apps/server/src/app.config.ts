@@ -9,6 +9,10 @@ import { WebSocketTransport } from "@colyseus/ws-transport";
 import { MyRoom } from "./rooms/MyRoom";
 
 export default config({
+  options: {
+    devMode: process.env.NODE_ENV !== "production",
+  },
+
   initializeGameServer: (gameServer) => {
     /**
      * Define your room handlers:

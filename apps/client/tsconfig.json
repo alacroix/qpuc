@@ -7,6 +7,9 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
+    "paths": {
+      "use-sound": ["./types/use-sound"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
