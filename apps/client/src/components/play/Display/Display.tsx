@@ -1,4 +1,8 @@
-import { GameState } from "../../../context/ColyseusContext";
+import {
+  GameState,
+  ParticipantType,
+  useColyseus,
+} from "../../../context/ColyseusContext";
 
 type Props = {
   gameState: GameState;
@@ -12,6 +16,8 @@ const mapGameStateToTitle = (gameState: GameState) => {
 };
 
 function Display({ gameState }: Props) {
+  const { state } = useColyseus();
+
   return (
     <div className="qpuc-gradient flex flex-1 flex-col">
       <div className="mt-8 flex flex-col items-center justify-center">
@@ -21,10 +27,14 @@ function Display({ gameState }: Props) {
         </h1>
       </div>
       <div className="flex flex-1 items-center justify-around">
-        <article className="font-kimberley flex flex-col text-center text-white">
-          <span className="text-4xl">Samuel</span>
-          <span className="text-9xl font-black">1</span>
-        </article>
+        {Array.from(state!.participants.values())
+          .filter(({ type }) => type === ParticipantType.Player)
+          .map((participant) => (
+            <article className="font-kimberley flex flex-col text-center text-white">
+              <span className="text-4xl">{participant.nickname}</span>
+              <span className="text-9xl font-black">{participant.points}</span>
+            </article>
+          ))}
       </div>
     </div>
   );
