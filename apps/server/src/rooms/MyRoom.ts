@@ -17,6 +17,7 @@ const NUMBERS = "0123456789";
 
 export class MyRoom extends Room<MyRoomState> {
   MY_ROOM = "$myroom";
+  askedQuestions = new Set();
 
   generateRoomIdSingle(): string {
     let result = "";
@@ -107,7 +108,13 @@ export class MyRoom extends Room<MyRoomState> {
 
   selectQuestion() {
     const length = nineToWinQuestions.data.length;
-    const index = Math.floor(Math.random() * length);
+    let index;
+    do {
+      index = Math.floor(Math.random() * length);
+    } while (this.askedQuestions.has(index));
+
+    this.askedQuestions.add(index);
+
     const question = nineToWinQuestions.data[index];
     this.state.question = new Question(question);
   }
