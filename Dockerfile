@@ -27,5 +27,6 @@ CMD [ "pnpm", "start" ]
 
 FROM nginx:alpine as client
 COPY --from=build /usr/src/app/apps/client/dist /usr/share/nginx/html
+COPY docker/default.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 CMD [ "/usr/sbin/nginx", "-g", "daemon off;" ]
