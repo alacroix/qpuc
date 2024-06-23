@@ -128,6 +128,9 @@ function Waiting() {
                 <span className="mt-4 text-xl leading-8 text-gray-300">
                   Scannez ce QRCode pour rejoindre la partie
                 </span>
+                <span className="mt-2 text-xl leading-6 text-gray-400">
+                  ID de la partie : <pre className="inline">{room.roomId}</pre>
+                </span>
               </>
             )}
             {playerType === ParticipantType.Host && (
