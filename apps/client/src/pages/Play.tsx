@@ -5,7 +5,6 @@ import {
   ParticipantType,
 } from "../context/ColyseusContext";
 import { Buzzer, Dashboard, Display, Waiting } from "../components/play";
-import { BuzzerState } from "../components/play/Buzzer/Buzzer";
 
 function Play() {
   const { room, state } = useColyseus();
@@ -27,7 +26,11 @@ function Play() {
 
   switch (playerType) {
     case ParticipantType.Player:
-      return <Buzzer buzzerState={BuzzerState.Idle} />;
+      return (
+        <Buzzer
+          buzzerState={state.participants.get(room.sessionId)!.buzzerState}
+        />
+      );
     case ParticipantType.Host:
       return <Dashboard gameState={state.gameState} />;
     case ParticipantType.Display:

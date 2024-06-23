@@ -141,12 +141,12 @@ function Waiting() {
       <div className="mb-4 space-y-4">
         <div className="md:flex md:justify-center">
           {playerType === ParticipantType.Host && (
-            <Button onClick={handleStartGameClick} className="w-full md:w-48">
+            <Button onClick={handleStartGameClick} className="w-full md:w-64">
               🚀 Lancer la partie
             </Button>
           )}
           {playerType === ParticipantType.Player && (
-            <Button onClick={toggleReadyState} className="w-full md:w-48">
+            <Button onClick={toggleReadyState} className="w-full md:w-64">
               {state.participants.get(room.sessionId)?.isReady
                 ? "❌  Pas prêt"
                 : "✅  Prêt ?"}

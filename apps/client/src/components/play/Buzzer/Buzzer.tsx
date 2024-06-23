@@ -1,26 +1,24 @@
 import clsx from "clsx";
 import useSound from "use-sound";
 import { useEffect, useState } from "react";
+import { useColyseus } from "../../../context/ColyseusContext";
 
 type Props = {
   buzzerState: BuzzerState;
   disabled?: boolean;
-  onClick?: () => void;
 };
 
 export enum BuzzerState {
-  Idle = 1,
+  Idle,
   Active,
+  Valid,
   Wrong,
-  Good,
+  Disabled,
 }
 
-export default function Buzzer({
-  buzzerState,
-  disabled = false,
-  onClick,
-}: Props) {
+export default function Buzzer({ buzzerState }: Props) {
   const [timeoutPointer, setTimeoutPointer] = useState<number | null>(null);
+  const { room } = useColyseus();
 
   const [playPressed] = useSound("/sfx/pressed.mp3", {
     interrupt: true,
@@ -39,7 +37,7 @@ export default function Buzzer({
       playBuzzer();
     } else if (buzzerState === BuzzerState.Wrong) {
       playWrongAnswer();
-    } else if (buzzerState === BuzzerState.Good) {
+    } else if (buzzerState === BuzzerState.Valid) {
       playCorrectAnswer();
     }
   }, [buzzerState]);
@@ -47,7 +45,9 @@ export default function Buzzer({
   const handlePointerDown = () => {
     const id = setTimeout(() => {
       playPressed();
-      if (!disabled && onClick) onClick();
+      if (buzzerState === BuzzerState.Idle) {
+        room?.send("Player:Buzzer");
+      }
     }, 50);
     setTimeoutPointer(id);
   };
@@ -69,7 +69,7 @@ export default function Buzzer({
             "from-indigo-100 to-indigo-300": buzzerState === BuzzerState.Idle,
             "from-yellow-100 to-yellow-300": buzzerState === BuzzerState.Active,
             "from-red-100 to-red-300": buzzerState === BuzzerState.Wrong,
-            "from-green-100 to-green-300": buzzerState === BuzzerState.Good,
+            "from-green-100 to-green-300": buzzerState === BuzzerState.Valid,
           },
         )}
         onPointerDown={handlePointerDown}

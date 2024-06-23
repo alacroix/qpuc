@@ -21,9 +21,9 @@ function Button({
         {
           " hover:-translate-y-[1px] hover:border-b-[6px] hover:brightness-110 active:translate-y-[2px] active:border-b-[2px] active:brightness-90":
             !disabled,
-          "border-amber-600 bg-amber-500": variant === "primary",
-          "border-green-600 bg-green-500": variant === "success",
-          "border-red-600 bg-red-500": variant === "danger",
+          "border-amber-600 bg-amber-500": !disabled && variant === "primary",
+          "border-green-600 bg-green-500": !disabled && variant === "success",
+          "border-red-600 bg-red-500": !disabled && variant === "danger",
           "cursor-not-allowed border-gray-500 bg-gray-400": disabled,
           "h-11": !block,
           "h-full w-full": block,

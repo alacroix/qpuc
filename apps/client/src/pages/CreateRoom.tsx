@@ -4,7 +4,9 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import { useColyseus } from "../context/ColyseusContext";
 
 function CreateRoom() {
-  const [loadingStatus, setLoadingStatus] = useState("Creating new game...");
+  const [loadingStatus, setLoadingStatus] = useState(
+    "Création d'une nouvelle partie...",
+  );
 
   const navigate = useNavigate();
   const [params, _] = useSearchParams();
@@ -16,7 +18,7 @@ function CreateRoom() {
       createRoom("my_room", {
         nickname: params.get("nickname") || "Anonymous",
       }).then((room) => {
-        setLoadingStatus("Joining room...");
+        setLoadingStatus("Connexion à la partie...");
         setTimeout(() => {
           navigate(`/room/${room?.id}`, { replace: true });
         }, 1000);
